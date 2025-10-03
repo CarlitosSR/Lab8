@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Lab8.Nodos;
 
-namespace Lab8
+namespace Lab8.Bicolas
 {
     internal class Bicola
     {
         private Nodo frente;
         private Nodo fin;
+
         public Bicola()
         {
             frente = null;
             fin = null;
         }
-
         public Nodo getFrente()
         {
             return frente;

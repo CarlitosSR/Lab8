@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Lab8.Bicolas;
+using Lab8.Nodos;
 
-namespace Lab8
+namespace Lab8.Ejercicios
 {
     internal class Ejercicio_8
     {
@@ -104,7 +105,7 @@ namespace Lab8
         // Inserta un elemento en la posición indicada usando solo EncolarFrente y DesencolarFinal
         private static void InsertarEnPosicion(Bicola bicola, int valor, int posicion)
         {
-            var temp = new System.Collections.Generic.List<int>();
+            var temp = new List<int>();
             Nodo actual = bicola.getFrente();
             int longitud = 0;
             while (actual != null)
