@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Lab8.Bicolas;
 
-namespace Lab8
+namespace Lab8.Ejercicios
 {
     internal class Ejercicio_1
     {
